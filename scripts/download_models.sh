@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 if [ "$#" == 0 ] || [ "$1" == "googlenet" ]; then
     curl "http://dl.caffe.berkeleyvision.org/bvlc_googlenet.caffemodel" -o models/googlenet/bvlc_googlenet.caffemodel
